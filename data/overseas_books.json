@@ -1,0 +1,20 @@
+{
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/",
+    "mirror": "https://gutenberg.pglaf.org/",
+    "license": "Public domain"
+  },
+  "books": [
+    {
+      "title": "傲慢与偏见",
+      "category": "海外名著",
+      "author": "简·奥斯汀",
+      "dynasty": "英",
+      "blurb": "伊丽莎白与达西的偏见与误会，十九世纪英国乡绅阶层的婚姻群像。",
+      "chapters": 61,
+      "original": "Pride and Prejudice",
+      "gutenberg_id": 1342
+    }
+  ]
+}

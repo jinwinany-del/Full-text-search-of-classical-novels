@@ -1,0 +1,15 @@
+services:
+  app:
+    build: .
+    container_name: novel-search-demo
+    restart: unless-stopped
+    mem_limit: 512m
+    environment:
+      USERS_DB_PATH: /app/userdata/users.db
+    ports:
+      - "8000:8000"
+    volumes:
+      - userdata:/app/userdata
+
+volumes:
+  userdata:

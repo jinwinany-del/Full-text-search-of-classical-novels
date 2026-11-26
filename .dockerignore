@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.git/
+_*.py
+data/users.db
+data/users.db-*

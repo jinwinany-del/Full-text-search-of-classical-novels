@@ -1,0 +1,56 @@
+本展示仓库仅包含 4 部示例书（三国演义、水浒传、红楼梦、傲慢与偏见），用于演示检索与阅读功能；
+线上站点收录 130 部。以下为项目完整来源说明。
+
+第三方文本来源与许可
+
+一、NiuTrans/Classical-Modern
+地址：https://github.com/NiuTrans/Classical-Modern
+许可：MIT License（Copyright (c) 2022 NiuTrans Open Source，完整文本见 licenses/NiuTrans-LICENSE.txt）
+收录作品：《三国演义》《水浒传》《红楼梦》《东周列国志》《隋唐演义》《三侠五义》
+          《杨家将》《封神演义》《镜花缘》《儒林外史》《官场现形记》《老残游记》
+          《孽海花》《海上花列传》
+
+二、gazhikaba/xiyouji_txt
+地址：https://github.com/gazhikaba/xiyouji_txt
+收录作品：《西游记》
+该仓库标注文本来自 ctext.org。
+
+三、ibyli/chinese-novel
+地址：https://github.com/ibyli/chinese-novel
+镜像：https://gitee.com/chobits81/chinese-novel
+许可：MIT License（Copyright (c) 2019 ibyli，完整文本见 licenses/chinese-novel-LICENSE.txt）
+收录作品：本次补充的 85 部章回小说，完整书目、作者与分类见 data/extra_books.json。
+整理时已跳过现代前言、序跋、校点说明，并剔除艳情类作品。
+
+四、Project Gutenberg（古腾堡计划）
+地址：https://www.gutenberg.org/
+镜像：https://gutenberg.pglaf.org/
+收录作品：30 部海外公版小说（英文原版或 19 世纪公版英译本），
+          完整书目、原文书名、作者与古腾堡编号见 data/overseas_books.json。
+说明：所选作品的原作者与英译者均已逝世超过 50 年，原文或英译本在中国属于公有领域；
+     下载后已剥离古腾堡页眉、页脚与许可文本，仅保留作品正文。
+
+公版说明
+以上作品的原作者均已逝世超过 50 年，原文在中国属于公有领域：
+- 《三国演义》罗贯中（约 1330—约 1400）
+- 《水浒传》施耐庵（约 1296—约 1370）
+- 《西游记》吴承恩（约 1500—约 1582）
+- 《红楼梦》曹雪芹（约 1715—约 1763）
+- 《东周列国志》冯梦龙（1574—1646）编，蔡元放（清代）评点
+- 《隋唐演义》褚人获（1635—1682）
+- 《三侠五义》石玉昆（约 1810—1871）
+- 《杨家将》明代小说，题熊大木作
+- 《封神演义》许仲琳（明代，一说陆西星）
+- 《镜花缘》李汝珍（约 1763—1830）
+- 《儒林外史》吴敬梓（1701—1754）
+- 《官场现形记》李宝嘉（1867—1906）
+- 《老残游记》刘鹗（1857—1909）
+- 《孽海花》曾朴（1872—1935）
+- 《海上花列传》韩邦庆（1856—1894）
+- 其余补充书目均为清末以前作品，或作者逝世已超过 50 年，作者信息见 data/extra_books.json。
+
+说明：电子文本的整理、标点与校对工作归上述项目所有，本站仅做检索与展示。
+
+封面说明
+馆内封面由本站脚本 generate_covers.py 生成原创 SVG，不使用出版社封面或网络受版权保护的图片。
+如后续替换为公版图源，需在 data/covers.json 和本文件中补充图片来源与许可信息。
